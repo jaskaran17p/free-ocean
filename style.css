@@ -1,0 +1,37 @@
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom right, #a8edea, #fed6e3);
+}
+header {
+  background-color: #005f73;
+  padding: 1rem;
+  text-align: center;
+  color: white;
+}
+input#searchBar {
+  margin-top: 1rem;
+  width: 80%;
+  max-width: 600px;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+.tool-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+.tool-card {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.2s;
+}
+.tool-card:hover {
+  transform: scale(1.05);
+}
